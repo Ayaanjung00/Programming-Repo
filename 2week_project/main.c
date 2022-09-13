@@ -2,15 +2,15 @@
 
 int main(void)
 {
-	// 1. ´ÙÀ½ ÄÚµåÀÇ ½ÇÇà °á°ú¸¦ ¿¹ÃøÇØ º¸°í, ÄÚµå¸¦ Á÷Á¢ ½ÇÇàÇØº» °á°ú¿Í ÀÏÄ¡ÇÏ´ÂÁö È®ÀÎÇÏ¼¼¿ä.
+	// 1. ë‹¤ìŒ ì½”ë“œì˜ ì‹¤í–‰ ê²°ê³¼ë¥¼ ì˜ˆì¸¡í•´ ë³´ê³ , ì½”ë“œë¥¼ ì§ì ‘ ì‹¤í–‰í•´ë³¸ ê²°ê³¼ì™€ ì¼ì¹˜í•˜ëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.
 	
 	/*
-	int arr[3];										// int Çü¿¡ ÇÒ´çµÇ´Â ¸Þ¸ð¸® Å©±â´Â int Çü ÇÏ³ª´ç 4ÀÌ´Ù. ¹è¿­ÀÌ 3°³ Á¤ÀÇµÇ¾úÀ¸¹Ç·Î 3x4=12 12°¡ Ãâ·ÂµÉ °ÍÀÌ´Ù.
-	int* pa = arr;									// arr ¹è¿­À» Æ÷ÀÎÅÍ *pa·Î Á¤ÀÇÇÏ¿´´Ù. 
-	printf("%d %d", sizeof(arr), sizeof(pa));		// ¿¹»ó Ãâ·Â°á°ú 12 4 | ½ÇÁ¦ Ãâ·Â°á°ú 12 8
+	int arr[3];										// int í˜•ì— í• ë‹¹ë˜ëŠ” ë©”ëª¨ë¦¬ í¬ê¸°ëŠ” int í˜• í•˜ë‚˜ë‹¹ 4ì´ë‹¤. ë°°ì—´ì´ 3ê°œ ì •ì˜ë˜ì—ˆìœ¼ë¯€ë¡œ 3x4=12 12ê°€ ì¶œë ¥ë  ê²ƒì´ë‹¤.
+	int* pa = arr;									// arr ë°°ì—´ì„ í¬ì¸í„° *paë¡œ ì •ì˜í•˜ì˜€ë‹¤. 
+	printf("%d %d", sizeof(arr), sizeof(pa));		// ì˜ˆìƒ ì¶œë ¥ê²°ê³¼ 12 4 | ì‹¤ì œ ì¶œë ¥ê²°ê³¼ 12 8
 	*/
 
-	// 2. ´ÙÀ½ ÄÚµåÀÇ ½ÇÇà °á°ú¸¦ ¿¹ÃøÇØ º¸°í, ÄÚµå¸¦ Á÷Á¢ ½ÇÇàÇØº» °á°ú¿Í ÀÏÄ¡ÇÏ´ÂÁö È®ÀÎÇÏ¼¼¿ä.		(¸ð¸£°Ú¾î¿ä)
+	// 2. ë‹¤ìŒ ì½”ë“œì˜ ì‹¤í–‰ ê²°ê³¼ë¥¼ ì˜ˆì¸¡í•´ ë³´ê³ , ì½”ë“œë¥¼ ì§ì ‘ ì‹¤í–‰í•´ë³¸ ê²°ê³¼ì™€ ì¼ì¹˜í•˜ëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.		
 	
 	/*
 	int arr[3];
@@ -21,7 +21,7 @@ int main(void)
 	printf("%u ", arr[3]);
 	*/
 	
-	// 3. ´ÙÀ½°ú °°Àº ¹è¿­ÀÌ ÀÖ½À´Ï´Ù. Æ÷ÀÎÅÍ pb¸¦ »ç¿ëÇØ¼­ ¹è¿­ ¿ä¼Ò¸¦ Ã³À½ºÎÅÍ ³¡±îÁö Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¼¼¿ä.
+	// 3. ë‹¤ìŒê³¼ ê°™ì€ ë°°ì—´ì´ ìžˆìŠµë‹ˆë‹¤. í¬ì¸í„° pbë¥¼ ì‚¬ìš©í•´ì„œ ë°°ì—´ ìš”ì†Œë¥¼ ì²˜ìŒë¶€í„° ëê¹Œì§€ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì„¸ìš”.
 	
 	/*
 	double arrd[4] = { 12.4, 23.1, 15.7, 31.2 };
@@ -32,7 +32,7 @@ int main(void)
 	}
 	*/
 
-	// 4.  ¹®ÀÚ¿­ "banana"¸¦ °¡¸®Å°´Â Æ÷ÀÎÅÍ p°¡ ´ÙÀ½°ú °°ÀÌ ¼±¾ðµÇ¾ú½À´Ï´Ù. 
+	// 4.  ë¬¸ìžì—´ "banana"ë¥¼ ê°€ë¦¬í‚¤ëŠ” í¬ì¸í„° pê°€ ë‹¤ìŒê³¼ ê°™ì´ ì„ ì–¸ë˜ì—ˆìŠµë‹ˆë‹¤. 
 	
 	/*
 	char* p = "banana";
@@ -46,7 +46,7 @@ int main(void)
 	}
 	*/
 
-	// 5. ¹®ÀÚ¿­ "computerprogramming"¿¡¼­ 'e'°¡ Ã³À½À¸·Î ³ªÅ¸³ª´Â À§Ä¡¸¦ Ã£¾Æ¼­ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¼¼¿ä. (5-1)
+	// 5. ë¬¸ìžì—´ "computerprogramming"ì—ì„œ 'e'ê°€ ì²˜ìŒìœ¼ë¡œ ë‚˜íƒ€ë‚˜ëŠ” ìœ„ì¹˜ë¥¼ ì°¾ì•„ì„œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì„¸ìš”. (5-1)
 
 	/*
 	char str1[20]="computerprogramming";
@@ -54,11 +54,11 @@ int main(void)
 	for (int i = 0; i < 20; i++)
 	{
 		if ('e' == str1[i])
-			printf("%d¹øÂ° indexÀÔ´Ï´Ù.",i + 1);
+			printf("%dë²ˆì§¸ indexìž…ë‹ˆë‹¤.",i + 1);
 	}
 	*/
 
-	// 5. ¹®ÀÚ¿­ "computerprogramming"¿¡¼­ 'e'°¡ Ã³À½À¸·Î ³ªÅ¸³ª´Â À§Ä¡¸¦ Ã£¾Æ¼­ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¼¼¿ä. (5-1)
+	// 5. ë¬¸ìžì—´ "computerprogramming"ì—ì„œ 'e'ê°€ ì²˜ìŒìœ¼ë¡œ ë‚˜íƒ€ë‚˜ëŠ” ìœ„ì¹˜ë¥¼ ì°¾ì•„ì„œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì„¸ìš”. (5-1)
 
 	/*
 	char* str2 = "computerprogramming";
@@ -67,7 +67,7 @@ int main(void)
 	{
 		if ('e' == *(str2 + i))
 		{
-			printf("%d¹øÂ° indexÀÔ´Ï´Ù.", i + 1);
+			printf("%dë²ˆì§¸ indexìž…ë‹ˆë‹¤.", i + 1);
 			break;
 		}
 	}
