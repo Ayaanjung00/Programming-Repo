@@ -10,7 +10,7 @@ int main(void)
 	printf("%d %d", sizeof(arr), sizeof(pa));		// 예상 출력결과 12 4 | 실제 출력결과 12 8
 	*/
 
-	// 2. 다음 코드의 실행 결과를 예측해 보고, 코드를 직접 실행해본 결과와 일치하는지 확인하세요.		(모르겠어요)
+	// 2. 다음 코드의 실행 결과를 예측해 보고, 코드를 직접 실행해본 결과와 일치하는지 확인하세요.		(코드가 실행되지 않습니다)
 	
 	/*
 	int arr[3];
@@ -60,16 +60,16 @@ int main(void)
 
 	// 5. 문자열 "computerprogramming"에서 'e'가 처음으로 나타나는 위치를 찾아서 출력하는 프로그램을 작성하세요. (5-1)
 
-	/*
+	
 	char* str2 = "computerprogramming";
 	printf("%s\n\n", str2);
 	for (int i = 0; i < 20; i++)
 	{
-		if ('e' == *(str2 + i))
+		if ('e' == *str2++)
 		{
 			printf("%d번째 index입니다.", i + 1);
 			break;
 		}
 	}
-	*/
+
 }
