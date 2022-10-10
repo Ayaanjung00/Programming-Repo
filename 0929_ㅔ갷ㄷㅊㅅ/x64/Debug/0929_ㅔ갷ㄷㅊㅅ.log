@@ -1,0 +1,9 @@
+﻿  main.c
+C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\main.c(27,10): warning C4101: 'cs' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\main.c(28,16): warning C4101: 'eng' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\main.c(30,6): warning C4101: 'subtotal' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\main.c(28,11): warning C4101: 'mat' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\main.c(28,6): warning C4101: 'kor' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\main.c(27,14): warning C4101: 'yh' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\main.c(27,6): warning C4101: 'ch' :참조되지 않은 지역 변수입니다.
+  0929_ㅔ갷ㄷㅊㅅ.vcxproj -> C:\Programming-Repo\0929_ㅔ갷ㄷㅊㅅ\x64\Debug\0929_project.exe

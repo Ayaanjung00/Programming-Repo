@@ -22,10 +22,3 @@ int SquareByValue(int num)
 	return 0;
 }
 */
-
-int main(void)
-{
-	int num[10];
-
-	scanf_s("%d %d %d %d %d %d %d %d %d %d")
-}
