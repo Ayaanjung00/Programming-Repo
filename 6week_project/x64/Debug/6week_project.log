@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Programming-Repo\6week_project\main.c(17,12): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Programming-Repo\6week_project\main.c(26,11): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char (*)[1][7]'입니다.
+C:\Programming-Repo\6week_project\main.c(26,11): message : 이 인수는 변환 지정자에서 사용됩니다.
+C:\Programming-Repo\6week_project\main.c(16,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Programming-Repo\6week_project\main.c(97): warning C4715: 'game': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  6week_project.vcxproj -> C:\Programming-Repo\6week_project\x64\Debug\6week_project.exe
