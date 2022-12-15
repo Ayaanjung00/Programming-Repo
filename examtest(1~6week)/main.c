@@ -57,5 +57,75 @@ float cal(float a, float b) {
 }
 */
 
+// 1week Q4
+/*
+int hap( int snum, int sum);
+int main(void)
+{
+	int num = 0;
+	int snum = 0;
+	int sum = 0;
 
+	printf("insert number : ");
+	scanf_s("%d", &snum);
+
+	hap(snum, sum);
+}
+
+int hap(int snum, int sum) {
+	int i = 0;
+	for ( i = 1; i <= snum; i++) {
+		if (i % 5 == 0)
+			continue;
+		sum += i;
+		if (sum > 1000) {
+			printf("1000을 초과하였습니다. 연산을 중지합니다.\n");
+			break;
+		}
+	}
+	printf("%d번째 정수까지 합은 %d입니다.", i-1, sum);
+}
+*/
+
+// 1week Q5
+/*
+int hap(int snum);
+int main(void)
+{
+	int snum = 0;
+
+	printf("insert number : ");
+	scanf_s("%d", &snum);
+
+	hap(snum);
+	printf("%d", hap(snum));
+}
+
+int hap(int snum) {
+	if (snum > 1)
+		return(snum + hap(snum - 1));
+}
+*/
+
+// 1week Q6
+/*
+int main(void)
+{
+	int a = 100;
+	int* p = &a;
+	*p = 200;
+	printf("%d", a);
+	printf("%d", (*p) + a);
+}*/
+
+/*
+// 1week Q7
+int main(void)
+{
+	int a = 100;
+	int* p = &a;
+	double* pd;
+	pd = p;
+	printf(
+	*/
 

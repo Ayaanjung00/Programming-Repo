@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\mymay\Downloads\main.c(8,22): warning C4047: '함수': 'int (*)[4]'의 간접 참조 수준이 'int [4]'과(와) 다릅니다.
+C:\Users\mymay\Downloads\main.c(8,19): warning C4024: 'print_ddarr': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  middle_exam.vcxproj -> C:\Programming-Repo\middle_exam\x64\Debug\middle_exam.exe

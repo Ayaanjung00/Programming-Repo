@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "330967f8-7f50-4b2f-98b0-3aa974470d66": {
+      "ProjectGuid": "330967f8-7f50-4b2f-98b0-3aa974470d66",
+      "DisplayName": "emergency_Pnumber",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

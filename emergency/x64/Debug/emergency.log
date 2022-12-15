@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Programming-Repo\emergency\alldef.h(9,7): warning C4101: 'name' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\emergency\alldef.h(10,7): warning C4101: 'number' :참조되지 않은 지역 변수입니다.
+C:\Programming-Repo\emergency\main.c(18,34): warning C4047: '==': 'char [10]'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  emergency.vcxproj -> C:\Programming-Repo\emergency\x64\Debug\emergency.exe

@@ -1,0 +1,10 @@
+﻿  func.c
+  main.c
+  코드를 생성하고 있습니다...
+main.obj : error LNK2005: SearchList이(가) func.obj에 이미 정의되어 있습니다.
+main.obj : error LNK2005: checkMoreInsert이(가) func.obj에 이미 정의되어 있습니다.
+main.obj : error LNK2005: findLastList이(가) func.obj에 이미 정의되어 있습니다.
+main.obj : error LNK2005: insertList이(가) func.obj에 이미 정의되어 있습니다.
+main.obj : error LNK2005: printList이(가) func.obj에 이미 정의되어 있습니다.
+main.obj : error LNK2005: removeData이(가) func.obj에 이미 정의되어 있습니다.
+C:\Programming-Repo\20221202\x64\Debug\20221202.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

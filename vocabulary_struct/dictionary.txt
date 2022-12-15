@@ -1,0 +1,5 @@
+apple 사과
+train 기차
+tiger 호랑이
+happy 행복
+art 예술

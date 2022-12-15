@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cbcd1b35-cf3b-428a-9920-f9dbac6ea9e6": {
+      "ProjectGuid": "cbcd1b35-cf3b-428a-9920-f9dbac6ea9e6",
+      "DisplayName": "linux",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
